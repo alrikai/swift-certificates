@@ -67,7 +67,8 @@ let package = Package(
                 "_CertificateInternals"
             ]
         ),
-    ]
+    ],
+    swiftLanguageModes: [.v5]
 )
 
 // If the `SWIFTCI_USE_LOCAL_DEPS` environment variable is set,
